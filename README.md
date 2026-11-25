@@ -1,4 +1,4 @@
-# soldstack-dev
+# SoldStack
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-soldstack-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://soldstack.dev/
+SoldStack provides an API that returns sold price data for secondhand clothing, shoes, bags, and a wide range of other items such as home, kitchen, electronics, games, pets, beauty and jewelry. The service aggregates marketplace data to deliver median price, days to sell, net after fees and a buy or pass verdict for each product, supporting Poshmark US and Canada. This enables developers to integrate real‑time resale market insights into their applications.
+
+**Areas:** Marketplace · Fashion · Resale · API · Data
+
+## SoldStack on APIs.io
+
+Everything profiled for SoldStack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/soldstack-dev/](https://apis.io/providers/soldstack-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SoldStack Comps API](https://apis.io/apis/soldstack-dev/soldstack-dev-comps-api/) — The comps API from SoldStack — 2 operation(s) for comps.
+- [SoldStack Values API](https://apis.io/apis/soldstack-dev/soldstack-dev-values-api/) — The values API from SoldStack — 1 operation(s) for values.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SoldStack Agentic Access](https://apis.io/agentic-access/soldstack-dev/soldstack-dev-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [SoldResponse](https://apis.io/schemas/soldstack-dev/soldstack-dev-sold-response/)
+- [ValueRequest](https://apis.io/schemas/soldstack-dev/soldstack-dev-value-request/)
+- [ValueResponse](https://apis.io/schemas/soldstack-dev/soldstack-dev-value-response/)
+- [VerdictResponse](https://apis.io/schemas/soldstack-dev/soldstack-dev-verdict-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Soldstack Dev Context](https://apis.io/jsonld/soldstack-dev/soldstack-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SoldStack API Rules](https://apis.io/rules/soldstack-dev/soldstack-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SoldStack Authentication](https://apis.io/security/soldstack-dev/soldstack-dev-authentication/)
+- [SoldStack Domain Security](https://apis.io/security/soldstack-dev/soldstack-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SoldStack Plans Pricing](https://apis.io/plans/soldstack-dev/soldstack-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://soldstack.dev/)
+- [Documentation](https://soldstack.dev/docs)
+- [Getting started](https://soldstack.dev/docs#quickstart)
+- [API reference](https://soldstack.dev/docs)
+- [Pricing](https://soldstack.dev/pricing)
+- [Changelog](https://soldstack.dev/changelog)
+- [Terms of service](https://soldstack.dev/terms)
+- [Privacy policy](https://soldstack.dev/privacy)
+- [Status](https://soldstack.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 53.0** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 48.5 |
+
+**Agent readiness 39.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/soldstack-dev/](https://apis.io/providers/soldstack-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SoldStack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/soldstack-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
